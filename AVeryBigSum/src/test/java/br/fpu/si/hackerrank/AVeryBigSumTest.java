@@ -27,7 +27,7 @@ public class AVeryBigSumTest {
 	
 	@Test
 	public void somaDoisNumeros(){
-		assertThat(aVeryBigSum.bigSum(6l,5l), is(11l));
+		assertThat("A soma de 6 + 5",aVeryBigSum.bigSum(6l,5l), is(11l));
 	}
 	
 	@Test
